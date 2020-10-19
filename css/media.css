@@ -140,6 +140,7 @@
   }
 
   .modal {
+    max-width: 90vh;
     max-height: 90vh;
   }
 
