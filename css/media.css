@@ -1,0 +1,170 @@
+@media (max-width: 1200px) {
+  .btn-dropdown {
+    display: block;
+  }
+
+  .menu {
+    position: relative;
+
+    width: 100%;
+    min-height: 65px;
+  }
+
+  .menu__nav {
+    display: none;
+  }
+
+  .header__title-img {
+    display: none;
+  }
+
+  .header__title {
+    justify-content: center;
+
+    text-align: center;
+  }
+
+  .header__title-present {
+    padding-left: 0;
+  }
+
+  .about .h2,
+  .about p,
+  .work .h2,
+  .work p,
+  .feedback .h2,
+  .feedback p,
+  .feedback form {
+    padding-left: 0;
+  }
+
+  .advantage__list {
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  .skills__box {
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+  }
+
+  .skills__img {
+    order: -1;
+  }
+
+  .skills__descript-item {
+    width: 100%;
+  }
+
+  .skills__descript-item::after {
+    width: 80%;
+  }
+
+  .work__video {
+    margin: auto;
+  }
+
+  .clients__box {
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+  }
+
+  .footer__box {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer__item {
+    width: 100%;
+  }
+
+  .footer__item p {
+    padding-left: 0;
+
+    text-align: center;
+  }
+
+  .footer__name {
+    margin-bottom: 10px;
+  }
+
+  .social {
+    justify-content: center;
+    margin: auto;
+  }
+
+  .social__item {
+    margin: 0 20px;
+  }
+
+  .container {
+    padding: 0 10px;
+  }
+
+  .feedback textarea {
+    max-width: 550px;
+  }
+}
+
+@media (max-width: 768px) {
+  body {
+    font-size: 14px;
+  }
+
+  .about p,
+  .work p,
+  .feedback p {
+    width: auto;
+  }
+
+  .skills__item {
+    width: 100%;
+  }
+
+  .work__video,
+  .work__video iframe {
+    height: 500px;
+  }
+}
+
+@media (max-width: 578px) {
+  .work__video,
+  .work__video iframe {
+    height: 300px;
+  }
+
+  .clients__box img {
+    width: 40%;
+  }
+
+  .modal {
+    max-height: 90vh;
+  }
+
+  .feedback__group {
+    flex-direction: column;
+    padding-bottom: 0;
+  }
+
+  .feedback__line {
+    width: 100%;
+    margin-bottom: 3%;
+  }
+
+  .gallery__img::before {
+    background-size: 50%;
+  }
+}
+
+@media (max-width: 375px) {
+  .logo {
+    display: none;
+  }
+
+  .gallery__item {
+    width: 100%;
+    max-width: 100%;
+  }
+}
