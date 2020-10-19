@@ -406,6 +406,8 @@ a[href]:active {
   z-index: -1;
 
   width: 80%;
+  max-width: 90vh;
+  max-height: 90vh;
   margin: auto;
   padding: 10px;
   overflow: auto;
@@ -669,87 +671,3 @@ a[href]:active {
   background-repeat: no-repeat;
   background-position: center;
 }
-
-/* 
-.write__me {
-  margin-bottom: 146px;
-}
-
-.dropdown-menu {
-  display: none;
-
-  list-style-type: none;
-  font-weight: 600;
-  font-size: 1.2rem;
-
-  border: none;
-  outline: none;
-}
-
-
-
-.row__1 {
-  padding-bottom: 10.4%;
-}
-
-.img {
-  padding: 0;
-}
-
-.present h1 {
-  padding-top: 3%;
-}
-
-p,
-h1 {
-  margin-bottom: 60px;
-}
-
-
-
-.about__me {
-  margin-top: 112px;
-}
-
-h2 {
-  margin-bottom: 50px;
-}
-
-.p__text {
-  margin-bottom: 100px;
-
-  text-align: center;
-}
-
-.section__third {
-  background: #34547a;
-}
-
-.gallery {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  margin-top: 100px;
-  margin-bottom: 30px;
-}
-
-.img__gallery {
-  width: 46.6px;
-  height: 50px;
-}
-
-.p__project {
-  color: #ffffff;
-}
-
-.section__fifth {
-  background: #eeeff1;
-}
-
-.work {
-  margin-top: 100px;
-}
-
-.video {
-  margin-bottom: 100px;
-} */
